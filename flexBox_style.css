@@ -1,0 +1,30 @@
+*{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.Base{
+    background-color: #310332f5;
+    padding:10px;
+    box-shadow: .4em .4em 2em #265347;
+}
+.main{
+    display: flex;
+}
+
+.main div{
+    border-radius: 20px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    background-color:#8955a5;
+    color: #34cec6;
+    border: 3px solid #0ea9eb  ;
+    margin: 5px;
+}
+.child{
+    display: flex;
+    
+}
+.child div{
+    background-color: #d486eb76;
+}

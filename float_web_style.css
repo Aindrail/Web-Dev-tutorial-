@@ -1,0 +1,48 @@
+.main_heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  .main {
+    background-color: rgba(57, 224, 185, 0.308);
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 0.4em 0.4em 2em;
+  }
+  .box {
+    border: 3px solid black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.4em 0.4em 0.7em;
+    height: 300px;
+  }
+  .s_box {
+    padding: 10px 10px 10px 10px;
+  }
+  .logo {
+    width: 220px;
+    float: left;
+    border-radius: 10px;
+    margin: 30px 30px 30px 30px;
+  }
+  div[class~="2"],
+  div[class~="4"] {
+    float: right;
+  }
+  p {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+  }
+  p[class~="2"],
+  p[class~="4"] {
+    width: 80%;
+  }
+  .strt{
+      font-size: 20px;
+      font-weight: 900;
+  }
+  
+  

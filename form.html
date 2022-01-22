@@ -1,0 +1,67 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Payment Form</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="container">
+        <form action="">
+            <h1 style="text-align: center;" class="main_heading">  Payment Form</h1>
+            <h3 style="font-size: smaller; color: red;">(* represent required field)</h3>
+            <h2>Contact Information</h2>
+  <p>Name :* <input type="text" name="Name" placeholder="ex:-Ram Singh" required></p>
+  <fieldset>
+      <legend>Gender :*</legend>
+      <p>
+          <input type="radio" name="Gender" id=""required>Male <br>
+          <input type="radio" name="Gender" id=""required>Female <br>
+           <input type="radio" name="Gender" id=""required>Others <br>
+          
+      </p>
+  </fieldset>
+  <p>
+      Address :* <textarea name="" id="Address" cols="100" rows="7" required></textarea>
+  </p>
+  <p>
+      Email: <input type ="email" name="Email" id="email">
+  </p>
+  <p>
+      Pincode :* <input type="number" name="pincode" id="pincode" required>
+  </p>
+  <hr>
+  <h2>Payment Information</h2>
+  <p>Card Type :*
+      <select name="card_type" id="card_type">
+          <option value="">--Select a Card Type--</option>
+          <option value="Visa">Visa</option>
+          <option value="Rupay">Rupay</option>
+          <option value="MasterCard">MasterCard</option>
+          required
+      </select>
+  </p>
+  <p>
+      Card Number :* <input type="number" name="card_num" id="card_num" required>
+  </p>
+  <p>
+      Expiration Date :* <input type="date" name ="exp_date" id = "exp_date" required>
+  </p>
+  <p>
+      Amount :* <input type="number"  placeholder="&#8377;" name="Amount" id="Amount" required>
+  </p>
+  <p>
+      CVV :* <input type="password" name="CVV" id="CVV" minlength="3" maxlength="3" required>
+  </p>
+  <div class ="submitbutton">
+    <input  type="submit" value="Pay Now">
+  </div>
+  
+        </form>
+      </div>
+      
+  </body>
+  </html> 
+  
