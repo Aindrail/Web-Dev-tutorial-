@@ -6,3 +6,4 @@ function inputMsg(){
     namasteBtn.textContent = 'Roll No. 44 '+name ;
     
 }
+//This is my first JS code
