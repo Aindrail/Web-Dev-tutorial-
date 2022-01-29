@@ -14,7 +14,8 @@
 // course.price = 999
 // console.log(course)
 
-//Factory function
+//Factory function(use camel naming convension)
+
 function createC(){
     return{
     lecture: 18,
@@ -45,7 +46,7 @@ function createC2(title){
 const course2 = createC2('Java Script');
 course2.enroll();
 
-//Constructor fun
+//Constructor fun (use Pascal Convention in naming)
 
 function Course3(title){
     this.title = title,
@@ -55,3 +56,12 @@ function Course3(title){
 }
 const course3 = new Course3('Javascript');
 course3.enroll()
+console.log(course2);
+
+//delete and add 
+
+delete course2.title;
+course2.checkEnroll = function(){
+    console.log("#0 users are enrolled");
+}
+console.log(course2);
