@@ -64,4 +64,4 @@ delete course2.title;
 course2.checkEnroll = function(){
     console.log("#0 users are enrolled");
 }
-console.log(course2);
+console.log(course2); 
