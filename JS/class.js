@@ -27,3 +27,4 @@ const Prod1 = class {
 };
 let chair = new Prod1('Chair',499,15,'C10');
 let table = new Prod1('Table',15000,20,'TT07');
+let table = new Prod1('Table',15000,20,'TT07');
