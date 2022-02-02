@@ -66,3 +66,8 @@ let names3 = names1.concat(names2);
   console.log(names3);
   //slice method
   console.log(names3.slice(3,5));
+  //spread operator
+  let name4 = [...names1,...names3];
+  console.log(names4);
+
+  
