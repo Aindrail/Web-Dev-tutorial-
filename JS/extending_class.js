@@ -8,7 +8,7 @@ class Product{
 }
 class Furniture extends Product{
     constructor(itemName){
-        super(itemName);
+        super(itemName); //calls the constructer of the parents class
     }
     getItemName(){
         return this.itemName + " is a furniture"
