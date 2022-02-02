@@ -11,3 +11,5 @@ array.push(11); //pushes 11 in last and returns the new size of the array
 console.log(array.push(12 ));  
 
 //unshift
+array.unshift(0); // adds at stating and return new length
+console.log(array.unshift(-1));
