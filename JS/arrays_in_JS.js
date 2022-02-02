@@ -68,6 +68,19 @@ let names3 = names1.concat(names2);
   console.log(names3.slice(3,5));
   //spread operator
   let name4 = [...names1,...names3];
-  console.log(names4);
+  console.log(name4);
 
-  
+  //For loop
+  for( let i=0; i<names.length; i++){
+      console.log(names[i]);
+  }
+
+  //For of
+  for(let name of names3){
+      console.log(name)
+  }
+
+  // for each
+  names.forEach(function(name1,index1){
+console.log(name1,index1);
+  })
