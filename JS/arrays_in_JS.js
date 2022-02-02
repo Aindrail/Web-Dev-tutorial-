@@ -25,3 +25,11 @@ arr[0]= 1; //stores and deletes the curr and prev index elemnt resp
 arr[1]= {array:80}
 console.log(arr); 
 
+const names  = ['Aindrail','Preeti','Gaurav','Anindita','Mrutunjay','Hand']
+//return the first index of the value and return -1 if not found
+console.log(names.indexOf('Preeti'));
+//to solve the first index bug use
+console.log(names.indexOf('Preeti',2)); //return the first occurence after and including 1(ie i)
+console.log(names);
+
+
