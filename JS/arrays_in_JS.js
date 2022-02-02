@@ -84,3 +84,25 @@ let names3 = names1.concat(names2);
   names.forEach(function(name1,index1){
 console.log(name1,index1);
   })
+
+  // JOIN
+  let student = ['S','h','i','v','a'];
+ console.log( student.join('')); //prints without commas
+ console.log( student.join()); //prints with commma
+ console.log( student.join('_'));//use seperator _
+
+ //Spilt
+ console.log(student.toString().split('-'));
+
+ let cities =[
+     {name: 'Mumbai', poplation: 3333333},
+     {name: 'Delhi', poplation: 3333433},
+     {name: 'Chennai', poplation: 33123333},
+     {name: 'Kolkata', poplation: 3678333},
+     {name: 'Banglore', poplation: 24343333}
+
+ ];
+
+ //filter
+console.log(cities.filter((city => city.poplation >30000000 )));
+console.log(cities.map((city => city.poplation * 2 )));
