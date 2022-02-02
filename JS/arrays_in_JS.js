@@ -58,3 +58,11 @@ console.log(names.includes('Hitesh'));
  }))
   //fun in another way
   console.log(players.find(ply => ply.name ==='Fedder'))
+
+  //concat 
+  let names1 =['Hero','Raja','Leo']
+  let names2 =['Pope','Ronaldo','Messi']
+let names3 = names1.concat(names2);
+  console.log(names3);
+  //slice method
+  console.log(names3.slice(3,5));
