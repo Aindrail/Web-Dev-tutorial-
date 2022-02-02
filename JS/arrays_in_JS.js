@@ -32,4 +32,10 @@ console.log(names.indexOf('Preeti'));
 console.log(names.indexOf('Preeti',2)); //return the first occurence after and including 1(ie i)
 console.log(names);
 
+//return the last index of the key
+console.log(names.lastIndexOf('Mrutunjay'));
+
+//check if present or not
+console.log(names.includes('Hitesh'));
+
 
