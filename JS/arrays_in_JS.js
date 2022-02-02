@@ -19,3 +19,9 @@ console.log(array.pop()); //return last element
 
 //shift
 console.log(array.shift()); // return first element
+
+//dynamic array value
+arr[0]= 1; //stores and deletes the curr and prev index elemnt resp
+arr[1]= {array:80}
+console.log(arr); 
+
