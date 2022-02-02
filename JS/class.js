@@ -31,5 +31,5 @@ const Prod1 = class {
 let chair = new Prod1('Chair',499,15,'C10');
 let table = new Prod1('Table',15000,20,'TT07');
 let table2 = new Prod1('Table',1500,20,'TT07');
-console.log(chair.getDiscount);
+console.log(chair.getDiscount); //no () use as it is a get fun
 console.log(chair.disc());   // if we dont use get we have to use ()
