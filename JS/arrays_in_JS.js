@@ -13,3 +13,9 @@ console.log(array.push(12 ));
 //unshift
 array.unshift(0); // adds at stating and return new length
 console.log(array.unshift(-1));
+
+//pop
+console.log(array.pop()); //return last element
+
+//shift
+console.log(array.shift()); // return first element
