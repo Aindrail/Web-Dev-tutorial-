@@ -38,4 +38,23 @@ console.log(names.lastIndexOf('Mrutunjay'));
 //check if present or not
 console.log(names.includes('Hitesh'));
 
+ //array of objects
+ let players = [
+     {
+         name: 'Nadal',
+         GS: 21
 
+     }
+     ,{
+         name:'Djockovic',
+         GS: 20
+     },{
+         name:'Fedder',
+         GS: 20
+     }
+ ];
+ console.log(players.find(function(ele){
+     return ele.GS ===21
+ }))
+  //fun in another way
+  console.log(players.find(ply => ply.name ==='Fedder'))
