@@ -46,7 +46,20 @@ return ch.name
  })
  console.log(propOfCh);
  //Get the total height of all characters
+ const sum = character.reduce( (prevHeigth,character) =>{
+  return prevHeigth + Number(character.height);
+ },0
+ );
+ console.log(sum);
+
  //Get characters with mass greater then 100
+const gr_100 = character.filter(character =>character.mass > 60);
+console.log(gr_100);
+
  //Get all male characters
+ const male_only = character.filter(character =>character.gender=='male')
+ console.log(male_only);
  //Sort by genders
+ const sort_by_gend = character.sort()
+ console.log(sort_by_gend);
  //Sort by names
