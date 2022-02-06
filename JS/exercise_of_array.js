@@ -79,3 +79,16 @@ console.log(gr_100);
     return 0;
 })
 console.log(sort_by_name);
+
+//Does every character have mass more than 40?
+console.log(character.every((character)=>{
+  return character.mass>40;
+})
+);
+//Does every character have blue eyes
+console.log(character.every((character)=>{
+    return character.eye_color=='blue';
+  })
+  );
+//s there at least one male character
+//Is there at least one character taller then 200?
