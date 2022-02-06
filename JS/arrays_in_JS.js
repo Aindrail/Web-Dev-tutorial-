@@ -106,3 +106,4 @@ console.log(name1,index1);
  //filter
 console.log(cities.filter((city => city.poplation >30000000 )));
 console.log(cities.map((city => city.poplation * 2 )));
+console.log(cities.map((city => city.poplation / 2 )));
