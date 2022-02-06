@@ -86,9 +86,8 @@ console.log(character.every((character)=>{
 })
 );
 //Does every character have blue eyes
-console.log(character.every((character)=>{
-    return character.eye_color=='blue';
-  })
-  );
-//s there at least one male character
+console.log(character.every(character => character.eye_color=='blue'));
+//Is there at least one male character
+console.log(character.some(character => character.gender));
 //Is there at least one character taller then 200?
+console.log(character.some(character => character.height >200));
