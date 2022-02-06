@@ -60,6 +60,22 @@ console.log(gr_100);
  const male_only = character.filter(character =>character.gender=='male')
  console.log(male_only);
  //Sort by genders
- const sort_by_gend = character.sort()
+ const sort_by_gend = character.sort((char1,char2)=>{
+     if(char1.gender <char2.gender)
+     return -1;
+     if(char1.gender >char2.gender)
+     return 1;
+     
+     return 0;
+ })
  console.log(sort_by_gend);
  //Sort by names
+ const sort_by_name = character.sort((char1,char2)=>{
+    if(char1.name <char2.name)
+    return -1;
+    if(char1.name >char2.name)
+    return 1;
+    
+    return 0;
+})
+console.log(sort_by_name);
