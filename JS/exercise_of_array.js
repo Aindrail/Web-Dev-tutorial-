@@ -33,11 +33,18 @@ let character = [
 ]
 
  //Get an array of all names
- const names = character.map((ch) =>{
+ const names = character.map(ch =>{
 return ch.name
  })
  console.log(names);
  //Get an array of objects with just name and height properties
+ const propOfCh = character.map(ch =>{
+     return {
+         name: ch.name,
+         height: ch.height
+     }
+ })
+ console.log(propOfCh);
  //Get the total height of all characters
  //Get characters with mass greater then 100
  //Get all male characters
